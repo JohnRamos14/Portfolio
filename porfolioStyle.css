@@ -2,3 +2,19 @@ ul li {
     display: inline;
     padding: 3px;
 }
+.column{
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+}
+.container{
+   margin-top: 30px; 
+   margin: 100px auto;
+}
+.row::after{
+    content: "";
+    display: table;
+}
+#title{
+    text-align: center;
+}
