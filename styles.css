@@ -5,6 +5,13 @@
   color: white;
 }
 
+#logo {
+  justify-content: right;
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+}
+
 header nav .myNav a {
   color: white;
   text-decoration: none;
@@ -14,17 +21,12 @@ header nav .myNav a {
 
 }
 
-
 header .navbar {
   padding-top: 2rem;
   padding-right: 2rem;
   justify-content: center;
   margin-top: 2em;
 
-}
-
-header nav .logo {
-  margin-right: 3rem;
 }
 
 body {
@@ -38,12 +40,13 @@ body {
   display: flex;
 }
 
-
 article {
   display: flex;
   flex-direction: row;
+  /* justify-content: center; */
   margin-left: 10em;
-  margin-top: 8em;
+  margin-top: 5em;
+  padding: 5em;
 }
 
 article h3 {
@@ -70,41 +73,12 @@ section {
   padding: 6rem;
 }
 
-section.about h1 {
-  margin-bottom: 1rem;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-section.about h1 span {
-  color: var(--primary);
-}
-
-section.about h3 {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-
-section.about p {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.9rem;
-  margin-bottom: 2rem;
-}
-
 footer {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3em;
-
+  text-align: center;
+  padding: 10px;
 }
-
 
 /* PROJECTS */
-
 #projects h1 {
   text-transform: uppercase;
   margin: 0 auto 30px auto;
@@ -173,7 +147,7 @@ footer {
 }
 
 #projects .item:hover {
-  background-color: rgb(226, 161, 216);
+  background-color: rgb(214, 53, 115);
 }
 
 #interrogasImg {
