@@ -42,27 +42,28 @@ body {
 article {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 6em;
+  margin-left: 10em;
+  margin-top: 8em;
 }
 
-article .aboutMe .desc {
-  text-align: center;
+article h3 {
+  padding-top: 3em;
+  margin-bottom: 1em;
+}
+
+#desc {
+  font-style: italic;
+  font-size: 1em;
+}
+
+#imageR {
+  float: left;
+  margin: 0 15px 0 0;
 }
 
 article .aboutMe img {
   border-radius: 50%;
   width: 250px;
-}
-
-article .aboutMe .imageR {
-  float: left;
-  width: 30%;
-}
-
-article .aboutMe .desc {
-float: right;
-width: 70%;
 }
 
 section {
