@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+header nav .myNav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  border-right: 1px solid;
+  padding-right: 2em;
+
+}
+
+
+header .navbar {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  justify-content: center;
+  margin-top: 2em;
+
+}
+
+header nav .logo {
+  margin-right: 3rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('Resources/testImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+}
+
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6em;
+}
+
+article .aboutMe .desc {
+  text-align: center;
+}
+
+article .aboutMe img {
+  border-radius: 50%;
+  width: 250px;
+}
+
+article .aboutMe .imageR {
+  float: left;
+  width: 30%;
+}
+
+article .aboutMe .desc {
+float: right;
+width: 70%;
+}
+
+section {
+  padding: 6rem;
+}
+
+section.about h1 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+section.about h1 span {
+  color: var(--primary);
+}
+
+section.about h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+section.about p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.9rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+
+}
+
+
+/* PROJECTS */
+
+#projects h1 {
+  text-transform: uppercase;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+#projects .myProjects {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  #projects .myProjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+#projects .myProjects .item {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  text-align: center;
+  -webkit-transition: background-color 0.8s ease-in;
+  transition: background-color 0.8s ease-in;
+}
+
+@media screen and (min-width: 768px) {
+  #projects .myProjects .item {
+    margin-bottom: 0;
+  }
+}
+
+#projects .myProjects .item h2 {
+  padding-bottom: 1em;
+}
+
+#projects .myProjects .item h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#projects .myProjects .item img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#projects .myProjects .item p {
+  font-style: italic;
+  display: block;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 2px #222;
+}
+
+#projects .myProjects .item a {
+  border-radius: 4px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#projects .item:hover {
+  background-color: rgb(226, 161, 216);
+}
+
+#interrogasImg {
+  width: 100%;
+  height: auto;
+}
+
+#monsterplexImg {
+  width: 100%;
+  height: auto;
+}
