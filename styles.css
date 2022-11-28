@@ -80,6 +80,13 @@ article .aboutMe img {
   width: 250px;
 }
 
+@media screen and (max-width: 800px) {
+  article .aboutMe img {
+    border-radius: 50%;
+    width: 150px;
+  }
+}
+  
 section {
   padding: 2rem;
 }
