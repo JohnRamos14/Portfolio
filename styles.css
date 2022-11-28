@@ -5,7 +5,6 @@
   color: white;
 }
 
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -28,6 +27,12 @@ header nav .myNav a {
   border-right: 1px solid;
   padding-right: 2em;
 
+}
+
+@media screen and (max-width: 400px) {
+  header nav .myNav a {
+    border-right: 0;
+  }
 }
 
 body {
@@ -115,10 +120,7 @@ footer .socials {
 
 @media (min-width: 800px) {
   #projects .myProjects {
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }
@@ -127,7 +129,6 @@ footer .socials {
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
   text-align: center;
-  -webkit-transition: background-color 0.8s ease-in;
   transition: background-color 0.8s ease-in;
 }
 
