@@ -5,6 +5,7 @@
   color: white;
 }
 
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -29,13 +30,6 @@ header nav .myNav a {
 
 }
 
-/* header .navbar {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  justify-content: center;
-  margin-top: 2em;
-} */
-
 body {
   font-family: 'Poppins', sans-serif;
   background-image: url('Resources/testImg.jpg');
@@ -50,10 +44,18 @@ body {
 article {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
   margin-left: 10em;
   margin-top: 5em;
   padding: 5em;
+}
+
+@media screen and (max-width: 900px) {
+  article {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 4em;
+    padding: 0;
+  }
 }
 
 article h3 {
@@ -84,6 +86,7 @@ section {
 
 footer {
   text-align: center;
+  letter-spacing: 1.2px;
   padding: 10px;
   background-color: rgba(14, 13, 13, 0.267);
 }
@@ -93,7 +96,6 @@ footer .socials {
 }
 
 /* PROJECTS */
-
 #projects h1 {
   text-transform: uppercase;
   margin: 0 auto 30px auto;
@@ -104,9 +106,8 @@ footer .socials {
   display: block;
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
   #projects .myProjects {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
@@ -123,7 +124,7 @@ footer .socials {
   transition: background-color 0.8s ease-in;
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 800px) {
   #projects .myProjects .item {
     margin-bottom: 0;
   }
@@ -157,12 +158,11 @@ footer .socials {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1.3px;
-  -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
 
 #projects .item:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 #interrogasImg {
