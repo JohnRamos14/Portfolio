@@ -20,6 +20,14 @@
   margin-right: 2em;
 }
 
+@media screen and (max-width: 900px) {
+  #logo {
+    display: none;
+  }
+}
+  
+
+
 header nav .myNav a {
   color: white;
   text-decoration: none;
@@ -29,9 +37,10 @@ header nav .myNav a {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   header nav .myNav a {
     border-right: 0;
+    padding-right: 0;
   }
 }
 
@@ -45,6 +54,8 @@ body {
 .navbar {
   display: flex;
 }
+
+
 
 article {
   display: flex;
